@@ -4,10 +4,6 @@
 
 于是我就写了这个小工具，它能合并目录，并自动检测修改的文件，在合并目录的时候创建旧文件的副本，拷贝新文件过来，如此，合并目录也不会丢失文件。**（作用）**
 
-提供exe可执行文件发布器**py2exe.py**，可将python文件干净的转换为exe可执行文件。
-
-需配合PyInstaller使用，请自行下载，详情见：[使用pyInstaller发布PathMerge的exe版本（py转换成exe）](http://www.cnblogs.com/yym2013/p/5509263.html)
-
 该项目中我已经给出了转换之后的.exe文件，没有python环境的可以**直接运行PathMerge.exe**使用。
 
 ## 使用演示
@@ -104,3 +100,5 @@ ps：直接运行PathMerge.exe也是可以的
 
 ## 注意
 * 测试环境为windows
+* 提供exe可执行文件发布器**py2exe.py**，可将python文件干净的转换为exe可执行文件。
+py2exe.py需配合PyInstaller使用，请自行下载，详情见：[使用pyInstaller发布PathMerge的exe版本（py转换成exe）](http://www.cnblogs.com/yym2013/p/5509263.html)
