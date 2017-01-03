@@ -4,7 +4,11 @@
 
 于是我就写了这个小工具，它能合并目录，并自动检测修改的文件，在合并目录的时候创建旧文件的副本，拷贝新文件过来，如此，合并目录也不会丢失文件。**（作用）**
 
-提供exe可执行文件发布器**py2exe.py**（需配合PyInstaller使用），可将python文件干净的转换为exe可执行文件：[使用pyInstaller发布PathMerge的exe版本（py转换成exe）](http://www.cnblogs.com/yym2013/p/5509263.html)
+提供exe可执行文件发布器**py2exe.py**，可将python文件干净的转换为exe可执行文件。
+
+需配合PyInstaller使用，请自行下载，详情见：[使用pyInstaller发布PathMerge的exe版本（py转换成exe）](http://www.cnblogs.com/yym2013/p/5509263.html)
+
+该项目中我已经给出了转换之后的.exe文件，没有python环境的可以**直接运行PathMerge.exe**使用。
 
 ## 使用演示
 现在有两个工作空间
@@ -35,9 +39,9 @@
 
 ![新的目录结构](./screenshots/7.png)
 
-大家看到，1/下多了一个文件夹33，里面多了两个文件111.txt和222.txt，我还修改了一个txt文件，一个ppt文件和一个word文件。
+和之前不同了，可以看到，新目录中1/下多了一个文件夹33，33/中多了两个文件111.txt和222.txt，我还修改了一个txt文件，一个ppt文件和一个word文件的内容。具体的就不贴图了。
 
-下面运行PathMerge：
+下面运行PathMerge开始合并：
 
 ![运行](./screenshots/8.png)
 
@@ -95,6 +99,8 @@ git clone https://github.com/windcode/PathMerge.git
 ```
 python PathMerge.py
 ```
+
+ps：直接运行PathMerge.exe也是可以的
 
 ## 注意
 * 测试环境为windows
