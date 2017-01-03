@@ -6,7 +6,24 @@
 
 该项目中我已经给出了转换之后的.exe文件，没有python环境的可以**直接运行PathMerge.exe**使用。
 
+## 快速安装
+
+### step 1 : 直接clone到本地
+
+```
+git clone https://github.com/windcode/PathMerge.git
+```
+
+### step 2 : 进入目录执行 PathMerge.py
+
+```
+python PathMerge.py
+```
+
+ps：直接运行PathMerge.exe也是可以的
+
 ## 使用演示
+
 现在有两个工作空间
 
 ![两个工作空间](./screenshots/1.png)
@@ -81,22 +98,6 @@ MD5识别文件的内容见博文：[python计算文件的md5值](http://www.cnb
 * 列出合并记录，统计合并信息
 
 ![合并信息](./screenshots/13.png)
-
-## 快速安装
-
-### step 1 : 直接clone到本地
-
-```
-git clone https://github.com/windcode/PathMerge.git
-```
-
-### step 2 : 进入目录执行 PathMerge.py
-
-```
-python PathMerge.py
-```
-
-ps：直接运行PathMerge.exe也是可以的
 
 ## 注意
 * 测试环境为windows
